@@ -1,0 +1,21 @@
+{
+  "name": "simple-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss ./assets/tailwind.css -o ./assets/tailwind_compiled.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.7",
+    "tailwindcss": "^2.0.3"
+  },
+  "dependencies": {
+    "postcss-cli": "^8.3.1"
+  }
+}
